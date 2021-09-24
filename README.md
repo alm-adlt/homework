@@ -1,6 +1,6 @@
 
-# the 1st homework
-## about some shapes and colors changes
+### the 1st homework
+#### about some shapes and colors changes
 ```
 int x,y=0;//position
 
