@@ -1,4 +1,4 @@
-  int colors[]={#FFFFFF,#BCBCBC,#7C7C7C,#363636};
+  int colors[]={#FFFFFF,#FFFFFF,#FFFFFF,#BCBCBC,#7C7C7C,#363636};
   int a;//change width
   int b;
   int h;//rect's height
@@ -26,17 +26,17 @@ void draw(){
     if(w>h){
       dw=int(random(w/4,w));
       rect(x,y,w-dw,h);
-      fill(colors[int(random(0,4))]);
+      fill(colors[int(random(0,6))]);
       rect(x+w-dw,y,dw,h);
     }
     else if(w<h){
       dh=int(random(h/4,h));
       rect(x,y,w,h-dh);
-      fill(colors[int(random(0,4))]);
+      fill(colors[int(random(0,6))]);
       rect(x,y+h-dh,w,dh);
     }
     else if(w==h){
-      fill(colors[int(random(0,4))]);
+      fill(colors[int(random(0,6))]);
       rect(x,y,w,h);
     }
     
